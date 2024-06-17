@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+
 import { HiOutlineSearch } from "react-icons/hi";
-import heroImage from '../assets/4.avif'; // Adjust the path to your image
+import heroImage from '../assets/4.avif'; 
 
 const Hero = () => {
 
@@ -12,11 +11,7 @@ const Hero = () => {
         setSelectedOption(option);
     }
   
-    // const [alignment, setAlignment] = React.useState('buy');
-
-    // const handleChange = (event, newAlignment) => {
-    //     setAlignment(newAlignment);
-    // };
+   
 
     return (
         <div className=''>
@@ -26,17 +21,7 @@ const Hero = () => {
                         <h1 className='text-4xl md:text-5xl mb-8 font-semibold'>Find real estate and get your dream place</h1>
                         <p className='mb-8 leading-relaxed text-secondary-hover'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque maxime nostrum optio repellendus perspiciatis deleniti ipsa sapiente.</p>
 
-                        {/* <div className=''>
-                            <ToggleButtonGroup
-                                value={alignment}
-                                exclusive
-                                onChange={handleChange}
-                                aria-label="Type"
-                            >
-                                <ToggleButton  value="buy" >Buy</ToggleButton>
-                                <ToggleButton value="rent">Rent</ToggleButton>
-                            </ToggleButtonGroup>
-                        </div> */}
+                      
                           <div className="flex items-center  mt-8">
       <button
         className={`border border-black rounded-l px-4 py-2 ${
@@ -95,20 +80,7 @@ const Hero = () => {
       </div>
     </div>
 
-                        {/* <div className='flex items-center gap-4'>
-                            <ToggleButtonGroup
-                                color="primary"
-                                value={alignment}
-                                exclusive
-                                onChange={handleChange}
-                                aria-label="Options"
-                            >
-                                <ToggleButton value="location">Location</ToggleButton>
-                                <ToggleButton value="max-price">Max Price</ToggleButton>
-                                <ToggleButton value="min-price">Min Price</ToggleButton>
-                                <ToggleButton value="search"><HiOutlineSearch /></ToggleButton>
-                            </ToggleButtonGroup>
-                        </div> */}
+                      
 
                         {selectedOption == 'buy' && (
 

@@ -9,11 +9,11 @@ export default {
       primary: ['DM Serif Display', 'serif'],
       secondary: ['Jost', 'sans-serif'],
     },
-    container: {
-      padding: {
-        DEFAULT: '10%',
-      },
-    },
+    // container: {
+    //   padding: {
+    //     DEFAULT: '10%',
+    //   },
+    // },
     screens: {
       sm: '640px',
       md: '768px',
@@ -27,7 +27,7 @@ export default {
           hover: '#FFF455',
         },
         secondary: {
-          DEFAULT: '#000000',
+          DEFAULT: '#1e1e1e',
           hover: '#343e4a',
         },
         tertiary: '#4d5053',
@@ -37,6 +37,16 @@ export default {
           secondary: '#f4f0ec',
           hover: '#b88c5d',
         },
+      },
+
+      utilities: {
+        '.hide-scrollbar': {
+          '-ms-overflow-style': 'none', /* IE and Edge */
+          'scrollbar-width': 'none', /* Firefox */
+          '&::-webkit-scrollbar': {
+            display: 'none' /* Chrome, Safari, and Opera */
+          }
+        }
       },
     },
   },

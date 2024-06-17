@@ -35,10 +35,10 @@ const Nav = () => {
 
     return (
         <header className= '  w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
-            <nav className={`container mx-auto  lg:px-14 ${isSticky ? "sticky top-0 right-0 border-b bg-white duration-300" : ""}`}>
+            <nav className={`container mx-auto mt-0   ${isSticky ? "sticky top-0 right-0 border-b bg-white duration-300" : ""}`}>
                 <div className='flex justify-between items-center text-base gap-8'>
                     <a href="/" className='text-2xl font-semibold items-center'>
-                        <img className='w-32' src={logo} alt="Logo" />
+                        <img className='w-32 h-32' src={logo} alt="Logo" />
                     </a>
 
                     <ul className='md:flex space-x-8 hidden'>

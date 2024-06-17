@@ -1,0 +1,88 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .map {
+    height: 100%; /* Ensure the map takes the full height of its container */
+  }
+
+ 
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Ensure no unintended overflow on smaller screens */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure the sticky header does not push content down */
+header {
+  z-index: 50;
+}
+
+.nav-menu {
+  transition: max-height 0.3s ease-in-out;
+}
+
+.sticky {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  border-bottom: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.listcontainer {
+  overflow-y: auto;
+  padding-right: 1rem; 
+}
+
+.mapcontainer {
+  overflow: hidden;
+}
+
+/* Media Query for 1024px width screens */
+@media (max-width: 1024px) {
+  .listcontainer {
+    padding-right: 2rem; /* Ensure there's enough space on the right */
+  }
+  .mapcontainer {
+    margin-top: 2rem; 
+    
+    width: 100%;
+    
+    padding-left: 8rem;
+  }
+}
+@media (max-width: 768px) {
+ 
+  .mapcontainer {
+    margin-top: 2rem; 
+    
+    width: 100%;
+    padding: 1rem;
+    
+    
+  }
+}
