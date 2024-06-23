@@ -395,6 +395,29 @@ export const singlePostData = {
       mail:"aravind@gmail.com"
   }
 
+  export const testimonial = [
+  {
+    img: 'src/assets/testimonial1.avif',
+    name: 'Sarah Johnson',
+    description: 'Professional and efficient service! Their team guided us seamlessly through the home buying process, ensuring we found our dream home within our budget.',
+    review:'4'
+  },
+
+  {
+    img: 'src/assets/testimonial2.avif',
+    name: 'Michael Smith',
+    description: 'Highly recommend! They listened attentively to our needs and matched us with the perfect property. The entire transaction was smooth and stress-free.',
+    review:'4'
+  },
+
+  {
+    img: 'src/assets/testimonial3.avif',
+    name: 'Emily Davis',
+    description: 'Outstanding expertise and support! From listing to closing, they were proactive and communicative, making the sale of our home a straightforward and rewarding experience.',
+    review:'4'
+  },
+]
+
 
 
   

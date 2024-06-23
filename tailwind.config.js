@@ -19,6 +19,7 @@ export default {
       // md: '768px',
       // lg: '960px',
       // xl: '1200px',
+      
       sm: '375px',   // Mobile devices
       md: '768px',   // Tablets
       lg: '960px',   // Laptops

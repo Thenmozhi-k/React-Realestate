@@ -32,9 +32,10 @@ const Nav = () => {
     // Define your navItems with correct paths and links
     const navItems = [
         { link: "Home", path: "/" },
-        { link: "About", path: "/list" }, // Adjusted path for About
+        { link: "About", path: "/about" },
+        { link: "Property", path: "/list" },
         { link: "Contact", path: "/contact" },
-        { link: "Agents", path: "/agents" },
+        
     ];
 
     const renderUserSection = () => {
