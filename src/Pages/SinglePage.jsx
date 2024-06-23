@@ -42,7 +42,7 @@ const SinglePage = () => {
           </div>
 
           <div className='p-4'>
-            <p className='text-md sm:text-sm'>{singlePostData.description}</p>
+            <p className='text-lg sm:text-sm'>{singlePostData.description}</p>
           </div>
         </div>
       </div>
