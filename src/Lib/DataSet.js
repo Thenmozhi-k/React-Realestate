@@ -363,6 +363,38 @@ const listdata = [
 
 export default listdata;
 
+export const singlePostData = {
+  id: 1,
+    title: "Modern Family Home",
+    price: 350000,
+    images: [
+      "src/assets/sp1.avif",
+      "src/assets/sp2.avif",
+      "src/assets/sp3.avif",
+      "src/assets/sp5.avif"
+      // "src/assets/sp4.avif",
+      
+    ],
+    bedrooms: 4,
+    bathrooms: 3,
+    size: 2500, // in square feet
+    longitude: -87.6501,
+    latitude: 41.8500,
+    city: "Chicago",
+    address: "123 Main St, Chicago, CA 94105",
+    school: "Lincoln High School",
+    bus: "Route 12",
+    restaurant: "The Golden Gate Restaurant",
+    description: "A beautiful modern family home located in the heart of Chicago with stunning city views and easy access to local amenities."
+  }
+
+  export const userData = {
+      id:1,
+      name:'Aravind',
+      img:"src/assets/user.avif",
+      mail:"aravind@gmail.com"
+  }
+
 
 
   

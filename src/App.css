@@ -3,12 +3,12 @@
   }
   
   .scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
   }
 
   .map {
-    height: 100%; /* Ensure the map takes the full height of its container */
+    height: 100%; 
   }
 
  
@@ -69,11 +69,11 @@ header {
   }
   .mapcontainer {
     margin-top: 2rem; 
-    
-    width: 100%;
-    
-    padding-left: 8rem;
   }
+  .singlepage {
+    margin-top: 7rem;
+  }
+ 
 }
 @media (max-width: 768px) {
  
@@ -85,4 +85,16 @@ header {
     
     
   }
+}
+@media (max-width: 1440px) {
+  .singlepage {
+    margin-top: 7rem;
+  }
+  
+}
+@media (max-width: 2560px) {
+  .singlepage {
+    margin-top: 7rem;
+  }
+  
 }

@@ -11,7 +11,7 @@ const ListPage = () => {
     <ErrorBoundary>
       <div className='container flex flex-col lg:flex-row w-full mt-32'>
         {/* List Container */}
-        <div className='listcontainer scrollbar-hide w-full lg:w-7/12 pr-0 lg:pr-4 h-[calc(100vh-8rem)] lg:h-screen overflow-y-scroll'>
+        <div className='listcontainer mt-20 scrollbar-hide w-full lg:w-7/12 pr-0 lg:pr-4 h-[calc(100vh-8rem)] lg:h-screen overflow-y-scroll'>
           <Element name="listcontainer">
             <div className="wrapper">
               <Filter />
@@ -23,7 +23,7 @@ const ListPage = () => {
         </div>
 
         {/* Map Container */}
-        <div className="mapcontainer md:mr-4 lg:mr-40 lg:w-4/12 w-full h-96 lg:h-[calc(100vh-8rem)] mt-4 lg:mt-0 lg:fixed top-32 lg:right-0">
+        <div className="mapcontainer lg:mr-10 md:mr-4 xxl:mr-11  lg:w-4/12 w-full h-96 lg:h-[calc(100vh-8rem)] mt-4 lg:mt-0 lg:fixed top-32 lg:right-0">
           <Map items={listdata} />
         </div>
       </div>

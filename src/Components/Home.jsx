@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { HiOutlineSearch } from "react-icons/hi";
 import heroImage from '../assets/4.avif'; 
 
-const Hero = () => {
+const Home = () => {
 
     const [selectedOption, setSelectedOption] =  useState('buy');
 
@@ -14,7 +14,7 @@ const Hero = () => {
    
 
     return (
-        <div className=''>
+        <div className='' id='home'>
             <div className='container mx-auto py-20 mt-10 md:py-32 px-6 md:px-0'>
                 <div className='flex flex-col md:flex-row gap-8'>
                     <div className='w-full md:w-1/2 order-2 md:order-1'>
@@ -128,4 +128,4 @@ const Hero = () => {
     );
 }
 
-export default Hero;
+export default Home;

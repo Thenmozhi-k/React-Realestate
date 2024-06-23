@@ -29,7 +29,7 @@ const Card = ({ item }) => {
             <p className='flex items-center bg-gray-200 border border-gray-300 p-2 rounded-md text-sm'><MdBedroomParent className='mr-2'/>{item.bedrooms} Bedroom</p>
             <p className='flex items-center bg-gray-200 border border-gray-300 p-2 rounded-md text-sm'><FaBath className='mr-2'/>{item.bathrooms} Bathroom</p>
           </div>
-          <div className='flex gap-2'>
+          <div className='flex gap-2 mt-2'>
             <a href="#" className='border border-gray-300 p-2 rounded-md flex items-center justify-center'>
               <IoChatboxEllipses className='text-xl md:text-2xl text-gray-600'/>
             </a>
