@@ -1,5 +1,6 @@
 import React from 'react';
 import TestimonialCarousel from '../Components/TestimonialCarousel';
+import about1 from '../assets/1.avif'
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                     {/* Who We Are Section */}
                     <div className='flex flex-col lg:flex-row gap-12 items-center mt-12'>
                         <div className='lg:w-1/2'>
-                            <img src="src/assets/1.avif" alt="Company Logo" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
+                            <img src={about1} alt="Company Logo" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
                         </div>
                         <div className='lg:w-1/2'>
                             <h2 className='text-xl font-semibold mb-4'>Who We Are</h2>
