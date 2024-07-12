@@ -1,10 +1,53 @@
+import testimonial1 from '../assets/testimonial1.avif'
+import testimonial2 from '../assets/testimonial2.avif'
+import testimonial3 from '../assets/testimonial3.avif'
+import user from '../assets/user.avif'
+
+
+import sp1 from '../assets/sp1.avif'
+import sp2 from '../assets/sp2.avif'
+import sp3 from '../assets/sp3.avif'
+import sp4 from '../assets/sp5.avif'
+
+import img1 from '../assets/apartment1.jpg'
+import img2 from '../assets/apartment2.jpg'
+import img3 from '../assets/apartment3.jpg'
+import img4  from '../assets/apartment4.jpg'
+import img5 from '../assets/apartment6.jpg'
+import img6 from '../assets/apartment5.jpg'
+import img7 from '../assets/apartment7.jpg'
+import img8 from '../assets/land7.jpg'
+import img9 from '../assets/apartment8.avif'
+import img10 from '../assets/condo1.webp'
+import img11 from '../assets/condo2.webp'
+import img12 from '../assets/condo3.avif'
+import img13 from '../assets/condo4.avif'
+import img14 from '../assets/condo5.avif'
+import img15 from '../assets/condo6.avif'
+import img16 from '../assets/condo7.jpg'
+import img17 from '../assets/home1.jpg'
+import img18 from '../assets/home2.jpg'
+import img19 from '../assets/home3.jpg'
+import img20 from '../assets/home4.jpg'
+import img21 from '../assets/home5.jpg'
+import img22 from '../assets/home6.jpg'
+import img23 from '../assets/home7.jpg'
+import img24 from '../assets/home8.jpg'
+import img25 from '../assets/land1.jpg'
+import img26 from '../assets/land2.webp'
+import img27 from '../assets/land3.webp'
+import img28 from '../assets/land4.jpg'
+import img29 from '../assets/land5.jpg'
+import img30 from '../assets/land6.jpg'
+
+
 const listdata = [
   {
     id: 1,
     title: "Modern Apartment in City Center",
     description: "A beautiful modern apartment located in the heart of the city.",
     address: "123 Main St, Cityville",
-    img: "src/assets/apartment1.jpg",
+    img: img1,
     bedrooms: 2,
     bathrooms: 2,
     price: 250000,
@@ -16,7 +59,7 @@ const listdata = [
     title: "Cozy Suburban Home",
     description: "A cozy home in a quiet suburban neighborhood.",
     address: "456 Elm St, Suburbia",
-    img: "src/assets/apartment2.jpg",
+    img: img2,
     bedrooms: 3,
     bathrooms: 2,
     price: 350000,
@@ -28,7 +71,7 @@ const listdata = [
     title: "Luxury Condo with Ocean View",
     description: "A luxurious condo with stunning ocean views.",
     address: "789 Ocean Dr, Beachside",
-    img: "src/assets/apartment3.jpg",
+    img: img3,
     bedrooms: 4,
     bathrooms: 3,
     price: 750000,
@@ -40,7 +83,7 @@ const listdata = [
     title: "Charming Cottage in the Woods",
     description: "A charming cottage nestled in a peaceful forest setting.",
     address: "101 Pine Rd, Forestville",
-    img: "src/assets/apartment4.jpg",
+    img: img4,
     bedrooms: 2,
     bathrooms: 1,
     price: 200000,
@@ -52,7 +95,7 @@ const listdata = [
     title: "Spacious Ranch Home",
     description: "A spacious ranch home with a large backyard.",
     address: "202 Oak Ln, Countryside",
-    img: "src/assets/apartment5.jpg",
+    img: img5,
     bedrooms: 3,
     bathrooms: 2,
     price: 300000,
@@ -64,7 +107,7 @@ const listdata = [
     title: "Urban Loft with Rooftop Deck",
     description: "An urban loft with a private rooftop deck and city views.",
     address: "303 Maple Ave, Metropolis",
-    img: "src/assets/apartment6.jpg",
+    img: img6,
     bedrooms: 1,
     bathrooms: 1,
     price: 450000,
@@ -76,7 +119,7 @@ const listdata = [
     title: "Historic Townhouse",
     description: "A beautifully restored historic townhouse.",
     address: "404 Cedar St, Oldtown",
-    img: "src/assets/apartment7.jpg",
+    img: img7,
     bedrooms: 4,
     bathrooms: 3,
     price: 600000,
@@ -88,7 +131,7 @@ const listdata = [
     title: "Modern Farmhouse",
     description: "A modern farmhouse with rustic charm.",
     address: "505 Birch Rd, Farmland",
-    img: "src/assets/condo1.webp",
+    img: img8,
     bedrooms: 5,
     bathrooms: 4,
     price: 550000,
@@ -100,7 +143,7 @@ const listdata = [
     title: "Beachfront Villa",
     description: "A stunning beachfront villa with private beach access.",
     address: "606 Shoreline Dr, Seaside",
-    img: "src/assets/condo2.webp",
+    img: img9,
     bedrooms: 6,
     bathrooms: 5,
     price: 1250000,
@@ -112,7 +155,7 @@ const listdata = [
     title: "Downtown Penthouse",
     description: "A luxurious penthouse in the heart of downtown.",
     address: "707 Skyline Blvd, Cityscape",
-    img: "src/assets/condo3.avif",
+    img: img10,
     bedrooms: 3,
     bathrooms: 3,
     price: 850000,
@@ -124,7 +167,7 @@ const listdata = [
     title: "Cozy Cabin Retreat",
     description: "A cozy cabin perfect for a mountain retreat.",
     address: "808 Mountain Rd, Hilltop",
-    img: "src/assets/condo4.avif",
+    img: img11,
     bedrooms: 2,
     bathrooms: 1,
     price: 150000,
@@ -136,7 +179,7 @@ const listdata = [
     title: "Spacious Family Home",
     description: "A spacious home ideal for a growing family.",
     address: "909 Walnut St, Homestead",
-    img: "src/assets/condo5.avif",
+    img: img12,
     bedrooms: 5,
     bathrooms: 3,
     price: 400000,
@@ -148,7 +191,7 @@ const listdata = [
     title: "Urban Studio Apartment",
     description: "A compact studio apartment in a bustling city.",
     address: "1010 Vine St, Urbania",
-    img: "src/assets/condo6.avif",
+    img: img13,
     bedrooms: 1,
     bathrooms: 1,
     price: 200000,
@@ -160,7 +203,7 @@ const listdata = [
     title: "Luxury Mansion",
     description: "A luxury mansion with all the amenities.",
     address: "1111 Estate Dr, Beverly Hills",
-    img: "src/assets/condo7.jpg",
+    img: img14,
     bedrooms: 8,
     bathrooms: 10,
     price: 5000000,
@@ -172,7 +215,7 @@ const listdata = [
     title: "Country Cottage",
     description: "A quaint cottage in the countryside.",
     address: "1212 Country Ln, Ruralville",
-    img: "src/assets/home1.jpg",
+    img: img15,
     bedrooms: 3,
     bathrooms: 2,
     price: 275000,
@@ -184,7 +227,7 @@ const listdata = [
     title: "Modern High-Rise Apartment",
     description: "A sleek apartment in a modern high-rise building.",
     address: "1313 Tower Blvd, Skyline",
-    img: "src/assets/home2.jpg",
+    img: img16,
     bedrooms: 2,
     bathrooms: 2,
     price: 350000,
@@ -196,7 +239,7 @@ const listdata = [
     title: "Lakefront Cabin",
     description: "A cozy cabin with stunning lake views.",
     address: "1414 Lake Dr, Lakeside",
-    img: "src/assets/home3.jpg",
+    img: img17,
     bedrooms: 3,
     bathrooms: 2,
     price: 320000,
@@ -208,7 +251,7 @@ const listdata = [
     title: "Victorian Home",
     description: "A beautiful Victorian home with historic charm.",
     address: "1515 Historic Ln, Heritage",
-    img: "src/assets/home4.jpg",
+    img: img18,
     bedrooms: 4,
     bathrooms: 3,
     price: 450000,
@@ -220,7 +263,7 @@ const listdata = [
     title: "Urban Townhome",
     description: "A modern townhome in an urban setting.",
     address: "1616 City St, Uptown",
-    img: "src/assets/home5.jpg",
+    img: img19,
     bedrooms: 3,
     bathrooms: 2,
     price: 380000,
@@ -232,7 +275,7 @@ const listdata = [
     title: "Country Estate",
     description: "A sprawling estate in the countryside.",
     address: "1717 Estate Rd, Greenfields",
-    img: "src/assets/home6.jpg",
+    img: img20,
     bedrooms: 6,
     bathrooms: 5,
     price: 900000,
@@ -244,7 +287,7 @@ const listdata = [
     title: "Secluded Mountain Cabin",
     description: "A secluded cabin in the mountains, perfect for a getaway.",
     address: "1818 Mountain Pass, Highland",
-    img: "src/assets/home7.jpg",
+    img: img21,
     bedrooms: 2,
     bathrooms: 1,
     price: 220000,
@@ -256,7 +299,7 @@ const listdata = [
     title: "Urban Penthouse",
     description: "A luxurious penthouse with panoramic city views.",
     address: "1919 Skyline Dr, Downtown",
-    img: "src/assets/home8.jpg",
+    img: img22,
     bedrooms: 4,
     bathrooms: 4,
     price: 1200000,
@@ -268,7 +311,7 @@ const listdata = [
     title: "Historic Brownstone",
     description: "A beautifully preserved historic brownstone.",
     address: "2020 Heritage St, Old City",
-    img: "src/assets/land1.jpg",
+    img: img23,
     bedrooms: 4,
     bathrooms: 3,
     price: 700000,
@@ -280,7 +323,7 @@ const listdata = [
     title: "Riverside Condo",
     description: "A modern condo with stunning river views.",
     address: "2121 River Rd, Riverside",
-    img: "src/assets/land2.webp",
+    img: img24,
     bedrooms: 3,
     bathrooms: 2,
     price: 500000,
@@ -292,7 +335,7 @@ const listdata = [
     title: "Luxury Lakehouse",
     description: "A luxurious house with direct lake access.",
     address: "2222 Lakefront Dr, Laketown",
-    img: "src/assets/land3.webp",
+    img: img25,
     bedrooms: 5,
     bathrooms: 4,
     price: 950000,
@@ -304,7 +347,7 @@ const listdata = [
     title: "Modern Suburban Home",
     description: "A modern home in a quiet suburban neighborhood.",
     address: "2323 Suburbia Ln, Quietville",
-    img: "src/assets/land4.jpg",
+    img: img26,
     bedrooms: 4,
     bathrooms: 3,
     price: 420000,
@@ -316,7 +359,7 @@ const listdata = [
     title: "Beachside Cottage",
     description: "A cozy cottage steps away from the beach.",
     address: "2424 Beach St, Coastline",
-    img: "src/assets/land5.jpg",
+    img: img27,
     bedrooms: 2,
     bathrooms: 1,
     price: 300000,
@@ -328,7 +371,7 @@ const listdata = [
     title: "Mountain Lodge",
     description: "A spacious lodge with mountain views.",
     address: "2525 Mountain Rd, Peakville",
-    img: "src/assets/land6.jpg",
+    img: img28,
     bedrooms: 6,
     bathrooms: 5,
     price: 800000,
@@ -340,7 +383,7 @@ const listdata = [
     title: "Chic Downtown Loft",
     description: "A chic loft in the heart of downtown.",
     address: "2626 Urban Ave, Cityscape",
-    img: "src/assets/land7.jpg",
+    img: img29,
     bedrooms: 1,
     bathrooms: 1,
     price: 330000,
@@ -352,7 +395,7 @@ const listdata = [
     title: "Seaside Villa",
     description: "A luxurious villa with private beach access.",
     address: "2727 Ocean Dr, Seaville",
-    img: "src/assets/apartment8.avif",
+    img: img30,
     bedrooms: 7,
     bathrooms: 6,
     price: 1500000,
@@ -368,10 +411,10 @@ export const singlePostData = {
     title: "Modern Family Home",
     price: 350000,
     images: [
-      "src/assets/sp1.avif",
-      "src/assets/sp2.avif",
-      "src/assets/sp3.avif",
-      "src/assets/sp5.avif"
+     sp1,
+      sp2,
+      sp3,
+      sp4
       // "src/assets/sp4.avif",
       
     ],
@@ -391,27 +434,27 @@ export const singlePostData = {
   export const userData = {
       id:1,
       name:'Aravind',
-      img:"src/assets/user.avif",
+      img:user,
       mail:"aravind@gmail.com"
   }
 
   export const testimonial = [
   {
-    img: 'src/assets/testimonial1.avif',
+    img: testimonial1,
     name: 'Sarah Johnson',
     description: 'Professional and efficient service! Their team guided us seamlessly through the home buying process, ensuring we found our dream home within our budget.',
     review:'4'
   },
 
   {
-    img: 'src/assets/testimonial2.avif',
+    img: testimonial2,
     name: 'Michael Smith',
     description: 'Highly recommend! They listened attentively to our needs and matched us with the perfect property. The entire transaction was smooth and stress-free.',
     review:'4'
   },
 
   {
-    img: 'src/assets/testimonial3.avif',
+    img: testimonial3,
     name: 'Emily Davis',
     description: 'Outstanding expertise and support! From listing to closing, they were proactive and communicative, making the sale of our home a straightforward and rewarding experience.',
     review:'4'

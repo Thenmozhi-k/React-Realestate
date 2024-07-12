@@ -1,6 +1,9 @@
 import React from 'react';
 import TestimonialCarousel from '../Components/TestimonialCarousel';
 import about1 from '../assets/1.avif'
+import about2 from '../assets/3.avif'
+import about3 from '../assets/4.avif'
+import about2 from '../assets/3.avif'
 
 const About = () => {
     return (
@@ -25,7 +28,7 @@ const About = () => {
                     {/* Our Mission Section */}
                     <div className='mission flex flex-col lg:flex-row-reverse gap-12 items-center mt-12'>
                         <div className='lg:w-1/2'>
-                            <img src="src/assets/3.avif" alt="Mission Image" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
+                            <img src={about2} alt="Mission Image" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
                         </div>
                         <div className='lg:w-1/2'>
                             <h3 className='text-xl font-semibold mb-4'>Our Mission</h3>
@@ -38,7 +41,7 @@ const About = () => {
                     {/* Our Vision Section */}
                     <div className='vision flex flex-col lg:flex-row gap-12 items-center mt-12'>
                         <div className='lg:w-1/2'>
-                            <img src="src/assets/4.avif" alt="Vision Image" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
+                            <img src={about3} alt="Vision Image" className='w-full h-auto rounded-lg mb-8 lg:mb-0' />
                         </div>
                         <div className='lg:w-1/2'>
                             <h3 className='text-xl font-semibold mb-4'>Our Vision</h3>
