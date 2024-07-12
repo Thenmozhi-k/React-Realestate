@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { userData } from '../Lib/DataSet';
 import { FaTimes } from "react-icons/fa";
+import user from '../assets/user.avif'
 
 const Chat = () => {
   // State to manage chatbox visibility
@@ -19,7 +20,7 @@ const Chat = () => {
         <div className='flex flex-col gap-5 mt-5'>
           {Array.from({ length: 10 }, (_, index) => (
             <div key={index} className='flex gap-4 cursor-pointer' onClick={toggleChatBox}>
-              <img src="src/assets/user.avif" alt="" className='w-9 h-9 rounded-full' />
+              <img src={user}alt="" className='w-9 h-9 rounded-full' />
               <div className='flex flex-col'>
                 <span className='font-medium'>{userData.name}</span>
                 <p className='mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus pretium tortor.</p>
@@ -34,7 +35,7 @@ const Chat = () => {
         <div className='flex flex-col h-[250px] w-full bg-gray-100'>
           <div className='top flex justify-between bg-accent items-center p-2  '>
             <div className='flex items-center'>
-              <img src="src/assets/user.avif" alt="" className='w-9 h-9 rounded-full' />
+              <img src={user} alt="" className='w-9 h-9 rounded-full' />
               <h2 className='ml-2'>{userData.name}</h2>
             </div>
             <span onClick={toggleChatBox} className='cursor-pointer'>

@@ -5,6 +5,7 @@ import { Link as RouterLink } from 'react-router-dom'; // Importing RouterLink f
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AuthContext } from './AuthContext';
 
+
 const Nav = () => {
     const { user, logout } = useContext(AuthContext);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
