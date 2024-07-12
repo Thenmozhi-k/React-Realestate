@@ -3,7 +3,7 @@ import TestimonialCarousel from '../Components/TestimonialCarousel';
 import about1 from '../assets/1.avif'
 import about2 from '../assets/3.avif'
 import about3 from '../assets/4.avif'
-import about2 from '../assets/3.avif'
+// import about2 from '../assets/3.avif'
 
 const About = () => {
     return (
