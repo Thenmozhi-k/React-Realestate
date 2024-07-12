@@ -4,7 +4,8 @@ import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom'; // Importing RouterLink from react-router-dom
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AuthContext } from './AuthContext';
-import userimg from '../assets/user.avif'
+// import userimg from '../assets/user.avif'
+import { userData } from '../Lib/DataSet';
 
 
 const Nav = () => {
@@ -44,7 +45,7 @@ const Nav = () => {
         if (user) {
             return (
                 <div className='flex items-center space-x-4'>
-                    <img className='w-10 h-10 rounded-full' src={userimg} alt="User" /> {/* Use user.img for user avatar */}
+                    <img className='w-10 h-10 rounded-full' src={userData.img} alt="User" /> {/* Use user.img for user avatar */}
                     <span className='text-secondary font-semibold'>{user.name}</span>
                     <div className='relative'>
                         <RouterLink to='/profile' className='profile group bg-primary text-black py-2 px-4 rounded border-2 border-transparent hover:bg-transparent hover:border-primary hover:text-black font-semibold flex items-center'>
